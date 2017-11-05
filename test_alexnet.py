@@ -15,18 +15,19 @@ image_dir = os.path.join(current_dir, 'images')
 img_files = [os.path.join(image_dir, f) for f in os.listdir(image_dir) if f.endswith('.jpeg')]
 
 #load all images
+print "loading:{}".format(img_files)
 imgs = []
 for f in img_files:
     imgs.append(cv2.imread(f))
     
 #plot images
-fig = plt.figure(figsize=(15,6))
-for i, img in enumerate(imgs):
-    fig.add_subplot(1,len(imgs),i+1)
-    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    plt.axis('off')
+# fig = plt.figure(figsize=(15,6))
+# for i, img in enumerate(imgs):
+#     fig.add_subplot(1,len(imgs),i+1)
+#     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+#     plt.axis('off')
 
-plt.show()
+# plt.show()
 
 from alexnet import AlexNet
 from caffe_classes import class_names
@@ -66,17 +67,28 @@ with tf.Session() as sess:
         
         # Reshape as needed to feed into model
         img = img.reshape((1,227,227,3))
+
+        pool2_tensor = sess.graph.get_tensor_by_name('pool2:0')
+        pool5_tensor = sess.graph.get_tensor_by_name('pool5:0')
+
+        p2, p5 = sess.run([pool2_tensor, pool5_tensor], feed_dict={x: img, keep_prob: 1})
+        print "pool2 shape: {}".format(p2.shape)
+        #np.set_printoptions(threshold='nan')
+        #print p2
+        print "pool5 shape: {}".format(p5.shape)
         
         # Run the session and calculate the class probability
         probs = sess.run(softmax, feed_dict={x: img, keep_prob: 1})
         
         # Get the class name of the class with the highest probability
         class_name = class_names[np.argmax(probs)]
+
+        print "class_name: {} prob:{}".format(class_name, probs[0, np.argmax(probs)])
         
         # Plot image with class name and prob in the title
         fig2.add_subplot(1,len(imgs),i+1)
         plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-        plt.title("Class: " + class_name + ", probability: %.4f" %probs[0,np.argmax(probs)])
+        plt.title(class_name + ", p: %.4f" %probs[0, np.argmax(probs)])
         plt.axis('off')
 
     plt.show()
