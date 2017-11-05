@@ -5,6 +5,11 @@ This repo has the code of the Tensotflow implementation of the AlexNet CNN (Tens
  - The AlexNet weights were downloaded from: http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/
  - The TensorFlow implementation of Alexnet was firstly developed by: https://github.com/kratzert/finetune_alexnet_with_tensorflow
 
+### Install
+
+    - Install tf from pip
+    - Download the Alexnet weights and locate them on the root of this project. Weights can be downloaded from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy.
+
 ### Todos
 
  - Get features from layers
