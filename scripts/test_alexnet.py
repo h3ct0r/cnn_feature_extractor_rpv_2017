@@ -15,7 +15,7 @@ image_dir = os.path.join(current_dir, 'images')
 img_files = [os.path.join(image_dir, f) for f in os.listdir(image_dir) if f.endswith('.jpeg')]
 
 #load all images
-print "loading:{}".format(img_files)
+print("loading:{}".format(img_files))
 imgs = []
 for f in img_files:
     imgs.append(cv2.imread(f))
@@ -68,14 +68,15 @@ with tf.Session() as sess:
         # Reshape as needed to feed into model
         img = img.reshape((1,227,227,3))
 
-        pool2_tensor = sess.graph.get_tensor_by_name('pool2:0')
+        pool1_tensor = sess.graph.get_tensor_by_name('pool1:0')
         pool5_tensor = sess.graph.get_tensor_by_name('pool5:0')
+        fc2_tensor = sess.graph.get_tensor_by_name('fc7/fc7:0')
 
-        p2, p5 = sess.run([pool2_tensor, pool5_tensor], feed_dict={x: img, keep_prob: 1})
-        print "pool2 shape: {}".format(p2.shape)
+        p1, p5, fc2 = sess.run([pool1_tensor, pool5_tensor, fc2_tensor], feed_dict={x: img, keep_prob: 1})
         #np.set_printoptions(threshold='nan')
-        #print p2
-        print "pool5 shape: {}".format(p5.shape)
+        print("pool1 shape: {}".format(p1.shape))
+        print("pool5 shape: {}".format(p5.shape))
+        print("fc2 shape: {}".format(fc2.shape))
         
         # Run the session and calculate the class probability
         probs = sess.run(softmax, feed_dict={x: img, keep_prob: 1})
@@ -83,7 +84,7 @@ with tf.Session() as sess:
         # Get the class name of the class with the highest probability
         class_name = class_names[np.argmax(probs)]
 
-        print "class_name: {} prob:{}".format(class_name, probs[0, np.argmax(probs)])
+        print("class_name: {} prob:{}".format(class_name, probs[0, np.argmax(probs)]))
         
         # Plot image with class name and prob in the title
         fig2.add_subplot(1,len(imgs),i+1)
@@ -91,4 +92,4 @@ with tf.Session() as sess:
         plt.title(class_name + ", p: %.4f" %probs[0, np.argmax(probs)])
         plt.axis('off')
 
-    plt.show()
+    #plt.show()
