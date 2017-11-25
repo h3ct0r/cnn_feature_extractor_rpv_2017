@@ -1,26 +1,19 @@
 import os
 import re
 import cv2
+import math
 import tqdm
 import numpy as np
 import tensorflow as tf
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import matplotlib.pyplot as plt
 from alexnet import AlexNet
-from caffe_classes import class_names
-from sklearn import cross_validation
-from sklearn import grid_search
-from sklearn import svm
-from sklearn.metrics import accuracy_score
-from sklearn.cross_validation import KFold
-
+from svn_classificator import SvnClassificator
 
 class FeatureExtractor(object):
     def __init__(self, cfg):
         self.cfg = cfg
 
-        self.train = {}
-        self.test = {}
+        self.dataset = {}
 
         self.imagenet_mean = None
         self.x_placeholder = None
@@ -70,10 +63,15 @@ class FeatureExtractor(object):
                 s_id = int(re.sub('[^0-9]', '', s[0]))
                 full_img_path = os.path.join(root, name)
 
-                if 'test' in root:
-                    FeatureExtractor.add_sample_to_dict(self.test, s_id, full_img_path)
-                else:
-                    FeatureExtractor.add_sample_to_dict(self.train, s_id, full_img_path)
+                FeatureExtractor.add_sample_to_dict(self.dataset, s_id, full_img_path)
+
+        # clean missing numbers
+        prev_num = 0
+        old_keys = sorted(self.dataset.keys())
+        for i in xrange(len(old_keys)):
+            old_k = old_keys[i]
+            self.dataset[prev_num] = self.dataset.pop(old_k)
+            prev_num += 1
 
     def init_alexnet(self):
         self.imagenet_mean = np.array([104., 117., 124.], dtype=np.float32)
@@ -138,104 +136,67 @@ class FeatureExtractor(object):
                     # prob = probs[0, np.argmax(probs)]
         return sample_r
 
-    def train_test_svm(self, data, target, kfolds=5):
+    @staticmethod
+    def export_features_by_class(fmap, cutoff=0.3):
+        if 0 < cutoff > 1:
+            raise Exception("cutoff must be between 0 and 1")
 
-        # Creating folds (cv parameter)
-        scores = cross_validation.cross_val_score(svm.SVC(), data, target, cv=kfolds)
-        print 'SVM-RBF accuracy for 5-fold', scores.mean()
+        t_train = []
+        p1_train = []
+        p5_train = []
+        fc2_train = []
 
-        print '\nSVM accuracy for each fold'
-        # Create the folds (5, in this case). This function returns indices to split data in train test sets.
-        print 'data:', data.shape
-        kf = cross_validation.StratifiedKFold(target, n_folds=kfolds)
+        t_test = []
+        p1_test = []
+        p5_test = []
+        fc2_test = []
 
-        scores_SVMRBF = 0
-        scores_LinearSVM = 0
-
-        fold = 1
-        for train, test in kf:
-            print "-------------------> Fold %d" % fold
-            fold += 1
-
-            # Using indices returned to separate the folds
-            fold_train = [data[i] for i in train]
-            fold_target = [target[i] for i in train]
-            fold_train_test = [data[i] for i in test]
-            fold_target_test = [target[i] for i in test]
-
-            scores_SVMRBF = scores_SVMRBF + self.classifier_function(fold_train,
-                                                                     fold_target,
-                                                                     fold_train_test,
-                                                                     fold_target_test,
-                                                                     svm.SVC(),
-                                                                     'SVM-RBF')
-
-            scores_LinearSVM = scores_LinearSVM + self.classifier_function(fold_train,
-                                                                           fold_target,
-                                                                           fold_train_test,
-                                                                           fold_target_test,
-                                                                           svm.LinearSVC(),
-                                                                           'Linear SVM')
-
-        print '\nFinal accuracy'
-        print 'SVM-RBF accuracy', scores_SVMRBF / float(kfolds)
-        print 'Linear SVM accuracy', scores_LinearSVM / float(kfolds)
-
-    '''
-    	Trains a simple classifier (eg.: SVMs, DT, ...)
-    '''
-    def classifier_function(self, train, target, test, test_target, classifier, clf_name):
-        # Start Simple Classifier
-
-        classifier.fit(train, target)
-
-        prediction = classifier.predict(test)
-        accuracy = accuracy_score(test_target, prediction)
-
-        print '%s Accuracy %.2f' % (clf_name, accuracy)
-        return accuracy
-
-    def export_features_by_class(self, fmap):
-        target = []
-        p1 = []
-        p5 = []
-        fc2 = []
         for k, v in fmap.items():
-            for e in v:
-                target.append(k)
-                p1.append(e['p1'])
-                p5.append(e['p5'])
-                fc2.append(e['fc2'])
+            total_e = len(v)
+            cut_p = int(math.ceil(total_e * (1 - cutoff)))
 
-        return np.asarray(target), np.asarray(p1), np.asarray(p5), np.asarray(fc2)
+            for i in xrange(len(v)):
+                e = v[i]
+                if i < cut_p:
+                    t_train.append(k)
+                    p1_train.append(e['p1'])
+                    p5_train.append(e['p5'])
+                    fc2_train.append(e['fc2'])
+                else:
+                    t_test.append(k)
+                    p1_test.append(e['p1'])
+                    p5_test.append(e['p5'])
+                    fc2_test.append(e['fc2'])
+
+        labels = [str(e) for e in sorted(list(set(t_train)))]
+
+        return [np.asarray(t_train), np.asarray(p1_train), np.asarray(p5_train), np.asarray(fc2_train)], \
+               [np.asarray(t_test), np.asarray(p1_test), np.asarray(p5_test), np.asarray(fc2_test)], \
+               labels
 
     def start(self):
-        print "[INFO]", "Processing train..."
-        train_fmap = self.process_samples(self.train)
-        train_target, train_p1, train_p5, train_fc2 = self.export_features_by_class(train_fmap)
+        print "[INFO]", "Processing data..."
+        fmap = self.process_samples(self.dataset)
+        train, test, labels = self.export_features_by_class(fmap)
 
-        print "[INFO]", "Target data:"
-        print '\ttarget:', train_target.shape
-        print '\tp1:', train_p1.shape
-        print '\tp5:', train_p5.shape
-        print '\tfc2:', train_fc2.shape
+        target_train, p1_train, p5_train, fc2_train = train
+        target_test, p1_test, p5_test, fc2_test = test
 
-        print "[INFO]", "Processing test..."
-        test_fmap = self.process_samples(self.test)
-        test_target, test_p1, test_p5, test_fc2 = self.export_features_by_class(test_fmap)
+        print "[INFO]", "Data shapes:"
+        print '\tTarget:{}/{}'.format(target_train.shape[0], target_test.shape[0])
+        print '\tC1:', p1_train.shape
+        print '\tC5:', p5_train.shape
+        print '\tFC2:', fc2_train.shape
+        print '\tLabels:', labels
 
-        print "[INFO]", "Test data:"
-        print '\ttarget:', test_target.shape
-        print '\tp1:', test_p1.shape
-        print '\tp5:', test_p5.shape
-        print '\tfc2:', test_fc2.shape
+        svn_fn = SvnClassificator(self.cfg)
+        # res_p1_1 = svn_fn.svm_simple(train_c1, train_target, test_c1, test_target, labels)
+        # print res_p1_1
 
-        full_target = np.concatenate((train_target, test_target), axis=0)
-        full_p1 = np.concatenate((train_p1, test_p1), axis=0)
-        full_p5 = np.concatenate((train_p5, test_p5), axis=0)
-        full_fc2 = np.concatenate((train_fc2, test_fc2), axis=0)
-
-        self.train_test_svm(full_p1, full_target)
-        self.train_test_svm(full_p5, full_target)
-        self.train_test_svm(full_fc2, full_target)
+        # res_early = svn_fn.svm_early_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
+        #                                     fc2_test, labels)
+        # print res_early
+        res_late = svn_fn.svm_late_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
+                                            fc2_test, labels)
+        print res_late
         pass

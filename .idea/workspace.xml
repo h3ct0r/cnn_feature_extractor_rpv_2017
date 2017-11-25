@@ -2,10 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abaf30ee-7c2f-43f4-97b7-c44f364bd15a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/alexnet_iris.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_alexnet.py" afterPath="$PROJECT_DIR$/scripts/test_alexnet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svn_classificator.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/000/u000_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/001/u001_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/002/u002_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/test/003/u003_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/000/u000_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/001/u001_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/002/u002_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/train/003/u003_vw_004.bmp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor.py" afterPath="$PROJECT_DIR$/feature_extractor.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="774">
-              <caret line="94" column="15" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
+              <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
               <folding>
                 <element signature="e#31#40#0" expanded="true" />
               </folding>
@@ -33,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
                 <element signature="e#52#61#0" expanded="true" />
               </folding>
@@ -41,14 +104,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feature_extractor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="feature_extractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="738">
+              <caret line="200" column="22" lean-forward="false" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svn_classificator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/svn_classificator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1775">
+              <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classification.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-894">
+              <caret line="1340" column="4" lean-forward="false" selection-start-line="1340" selection-start-column="4" selection-end-line="1340" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,6 +157,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>train</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>test</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,9 +172,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scripts/test_alexnet.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/config/alexnet_iris.json" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/feature_extractor.py" />
+        <option value="$PROJECT_DIR$/svn_classificator.py" />
       </list>
     </option>
   </component>
@@ -281,17 +375,41 @@
     <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
-          <caret line="94" column="15" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
+          <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
           <folding>
             <element signature="e#31#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="1340" column="4" lean-forward="false" selection-start-line="1340" selection-start-column="4" selection-end-line="1340" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="e#52#61#0" expanded="true" />
           </folding>
@@ -300,10 +418,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="738">
+          <caret line="200" column="22" lean-forward="false" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_classificator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
