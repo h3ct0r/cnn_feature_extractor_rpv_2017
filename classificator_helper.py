@@ -20,63 +20,8 @@ class ClassificatorHelper(object):
     def __init__(self, cfg):
         self.cfg = cfg
     pass
-
-    def svm_simple(self, train_data, train_target, test_data, test_target, labels, kfolds=5, debug_level=100):
-        """
-        Train a simple SVM with grid search
-        :param train_data: 
-        :param train_target: 
-        :param test_data: 
-        :param test_target: 
-        :param labels: 
-        :param kfolds: 
-        :return: 
-        """
-
-        print "[INFO]", "SVM Simple execution ..."
-
-        parameter_candidates = [
-            {'estimator__C': [1, 10, 100, 1000],
-             'estimator__gamma': [0.001, 0.0001, 10, 100],
-             'estimator__kernel': ['rbf']}
-        ]
-
-        one_vs_rest_clf = OneVsRestClassifier(svm.SVC(kernel="rbf"))
-
-        # perform a grid search with a kfolds cross validation
-        search = GridSearchCV(one_vs_rest_clf, param_grid=parameter_candidates, cv=kfolds, n_jobs=-1,
-                              verbose=debug_level)
-        search.fit(train_data, train_target)
-
-        # Capture and fit the best estimator from across the grid search
-        best_svm = search.best_estimator_
-        predictions = best_svm.predict(test_data)
-
-        y_data = confusion_matrix(test_target, predictions)
-
-        y_data_float = y_data.astype(float)
-        y_data_float *= 1/y_data_float.max()
-
-        class_report = classification_report(test_target, predictions, target_names=labels)
-
-        accuracy = ClassificatorHelper.extract_accuracy_metrics(y_data)
-
-        return {
-            'rbf': search.best_score_,
-            'kernel': search.best_estimator_.estimator.kernel,
-            'C': search.best_estimator_.estimator.C,
-            'gamma': search.best_estimator_.estimator.gamma,
-            'class_report': class_report,
-            'y_data': y_data.tolist(),
-            'y_data_normalized': y_data_float.tolist(),
-            'labels': labels,
-            'predictions': predictions.tolist(),
-            'test_target': test_target.tolist(),
-            'oa': accuracy[0],
-            'aa': accuracy[1]
-        }
     
-    def svm_simple_old(self, train_data, train_target, test_data, test_target, labels, kfolds=5, debug_level=100):
+    def svm_simple(self, train_data, train_target, test_data, test_target, labels, kfolds=5, debug_level=100):
         """
         Train a simple SVM with grid search
         :param train_data: 
@@ -197,8 +142,8 @@ class ClassificatorHelper(object):
                 'y_data': y_data.tolist(),
                 'y_data_normalized': y_data_float.tolist(),
                 'labels': labels,
-                'predictions': predictions,
-                'test_target': test_target,
+                'predictions': predictions.tolist(),
+                'test_target': test_target.tolist(),
                 'oa': accuracy[0],
                 'aa': accuracy[1]
             })
@@ -222,8 +167,6 @@ class ClassificatorHelper(object):
         """
 
         print "[INFO]", "SVM Late fusion ..."
-
-        results = []
 
         parameter_candidates = [
             {'C': [1, 10, 100, 1000], 'gamma': [0.001, 0.0001, 10, 100], 'kernel': ['rbf']}
@@ -259,18 +202,17 @@ class ClassificatorHelper(object):
 
         accuracy = ClassificatorHelper.extract_accuracy_metrics(y_data)
 
-        results.append({
+        return {
             'class_report': class_report,
             'y_data': y_data.tolist(),
             'y_data_normalized': y_data_float.tolist(),
             'labels': labels,
             'prediction_votes': prediction_votes,
             'predictions': predictions,
-            'test_target': test_target,
+            'test_target': test_target.tolist(),
             'oa': accuracy[0],
             'aa': accuracy[1]
-        })
-        return results
+        }
 
     def random_forest_simple(self, train_data, train_target, test_data, test_target, labels, debug_level=100):
 
@@ -294,8 +236,8 @@ class ClassificatorHelper(object):
             'y_data': y_data.tolist(),
             'y_data_normalized': y_data_float.tolist(),
             'labels': labels,
-            'predictions': predictions,
-            'test_target': test_target,
+            'predictions': predictions.tolist(),
+            'test_target': test_target.tolist(),
             'oa': accuracy[0],
             'aa': accuracy[1]
         }
@@ -304,8 +246,6 @@ class ClassificatorHelper(object):
                                    debug_level=100):
 
         print "[INFO]", "SVM linear majority vote with subsampling ..."
-
-        results = []
 
         parameter_candidates = [
             {'C': [1, 10, 100], 'kernel': ['linear']}
@@ -343,18 +283,17 @@ class ClassificatorHelper(object):
 
         accuracy = ClassificatorHelper.extract_accuracy_metrics(y_data)
 
-        results.append({
+        return {
             'class_report': class_report,
             'y_data': y_data.tolist(),
             'y_data_normalized': y_data_float.tolist(),
             'labels': labels,
             'prediction_votes': prediction_votes,
-            'predictions': predictions,
-            'test_target': test_target,
+            'predictions': list(predictions),
+            'test_target': test_target.tolist(),
             'oa': accuracy[0],
             'aa': accuracy[1]
-        })
-        return results
+        }
 
     def svm_linear_bagging(self, train_data, train_target, test_data, test_target, labels, n_estimators=5,
                            debug_level=100):
@@ -388,8 +327,8 @@ class ClassificatorHelper(object):
             'y_data': y_data.tolist(),
             'y_data_normalized': y_data_float.tolist(),
             'labels': labels,
-            'predictions': predictions,
-            'test_target': test_target,
+            'predictions': predictions.tolist(),
+            'test_target': test_target.tolist(),
             'oa': accuracy[0],
             'aa': accuracy[1]
         }
@@ -397,19 +336,19 @@ class ClassificatorHelper(object):
     def test_diversity_fc2(self, train_target, train_fc2, test_target, test_fc2, labels, kfolds=5, debug_level=0):
         res_svm_rbf = self.svm_simple(train_fc2, train_target, test_fc2, test_target, labels, kfolds=kfolds,
                                       debug_level=debug_level)
-        print "res_svm_rbf:", res_svm_rbf
+        #print "res_svm_rbf:", res_svm_rbf
 
         res_random_forest = self.random_forest_simple(train_fc2, train_target, test_fc2, test_target, labels,
                                                       debug_level=debug_level)
-        print "res_random_forest:", res_random_forest
+        #print "res_random_forest:", res_random_forest
 
         res_svn_linear = self.svm_linear_majority_voting(train_fc2, train_target, test_fc2, test_target, labels,
                                                          debug_level=debug_level)
-        print "res_svn_linear:", res_svn_linear
+        #print "res_svn_linear:", res_svn_linear
 
         res_svm_bagging = self.svm_linear_bagging(train_fc2, train_target, test_fc2, test_target, labels,
                                                   debug_level=debug_level)
-        print "res_svm_bagging:", res_svm_bagging
+        #print "res_svm_bagging:", res_svm_bagging
 
         return {
             'svm_rbf': res_svm_rbf,
