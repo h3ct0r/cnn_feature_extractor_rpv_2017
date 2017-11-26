@@ -1,3 +1,6 @@
 {
-  "dataset": "iris_dataset"
+  "dataset": "iris_dataset",
+  "plot_path": "plots",
+  "result_path": "result",
+  "verbose_level": 0
 }
