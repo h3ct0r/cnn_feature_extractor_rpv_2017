@@ -36,4 +36,5 @@ if __name__ == "__main__":
     opts = parser.parse_args()
 
     launch(opts.config)
+    # Uncomment for debug only:
     #launch("config/alexnet_iris.json")

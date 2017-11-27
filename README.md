@@ -7,10 +7,30 @@ This repo has the code of the Tensotflow implementation of the AlexNet CNN (Tens
 
 ### Install
 
-    - Install tf from pip
-    - Download the Alexnet weights and locate them on the root of this project. Weights can be downloaded from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy.
+- Install pip dependences:
+        `$ pip install tf tqdm `
+- Install opencv2. Follow tutorial from http://milq.github.io/install-opencv-ubuntu-debian/.
+- Download the Alexnet weights and locate them on the root of this project. Weights can be downloaded from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy.
+        `$ cd cnn_feature_extractor_rpv_2017/ && wget http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy`
 
-### Todos
+### How to run
 
- - Get features from layers
- - Implement SVM + RBF
+- Put the images on a folder, every class separated by folder name: 000, 001, 002, 003, etc.
+- Create a new config file in JSON format (examples in **config/** folder).
+- Run by executing `python main.py -c config/*a_config_file.json*`
+
+#### Run with the Iris Dataset
+
+- `python main.py -c config/alexnet_iris.json`
+
+### Results and plots
+
+All the results and plots are defined on the config file, but generally they are located in the *plots/* and *results/* folders.
+
+- *plots*: are PDF generated files with a normalized confusion matrix using a heatmap color map.
+- *results*: are JSON files generated with all the relevant information about the experiment: confusion matrix, overall precision, average precision, etc.
+- 
+## Authors
+- Héctor Azpúrua
+- Patricia Almeida
+- Willian Hofner

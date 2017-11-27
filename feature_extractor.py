@@ -60,8 +60,10 @@ class FeatureExtractor(object):
                 if not name.endswith('.bmp'):
                     continue
 
-                s = name.split('_')
-                s_id = int(re.sub('[^0-9]', '', s[0]))
+                s_id = int(re.sub('[^0-9]', '', root.split('/')[1]))
+
+                #print "id:{} path:{}".format(s_id, root.split('/')[1])
+
                 full_img_path = os.path.join(root, name)
 
                 FeatureExtractor.add_sample_to_dict(self.dataset, s_id, full_img_path)
@@ -73,6 +75,8 @@ class FeatureExtractor(object):
             old_k = old_keys[i]
             self.dataset[prev_num] = self.dataset.pop(old_k)
             prev_num += 1
+
+        print "[DEBUG]", "Number of classes:", len(self.dataset.keys()), self.dataset.keys()
 
     def init_alexnet(self):
         self.imagenet_mean = np.array([104., 117., 124.], dtype=np.float32)
@@ -198,15 +202,15 @@ class FeatureExtractor(object):
         ClassificatorHelper.save_results(res_p1_1, self.cfg["result_path"], self.cfg["plot_path"],
                                          "p1_svm_simple_" + prepend_date)
 
-        res_p5_1 = svn_fn.svm_simple(p5_train, target_train, p5_test, target_test, labels,
-                                     debug_level=self.cfg["verbose_level"])
-        ClassificatorHelper.save_results(res_p5_1, self.cfg["result_path"], self.cfg["plot_path"],
-                                         "p5_svm_simple_" + prepend_date)
-
-        res_fc2_1 = svn_fn.svm_simple(fc2_train, target_train, fc2_test, target_test, labels,
-                                      debug_level=self.cfg["verbose_level"])
-        ClassificatorHelper.save_results(res_fc2_1, self.cfg["result_path"], self.cfg["plot_path"],
-                                         "fc2_svm_simple_" + prepend_date)
+        # res_p5_1 = svn_fn.svm_simple(p5_train, target_train, p5_test, target_test, labels,
+        #                              debug_level=self.cfg["verbose_level"])
+        # ClassificatorHelper.save_results(res_p5_1, self.cfg["result_path"], self.cfg["plot_path"],
+        #                                  "p5_svm_simple_" + prepend_date)
+        #
+        # res_fc2_1 = svn_fn.svm_simple(fc2_train, target_train, fc2_test, target_test, labels,
+        #                               debug_level=self.cfg["verbose_level"])
+        # ClassificatorHelper.save_results(res_fc2_1, self.cfg["result_path"], self.cfg["plot_path"],
+        #                                  "fc2_svm_simple_" + prepend_date)
 
         # res_p1_2 = svn_fn.svm_simple_old(p1_train, target_train, p1_test, target_test, labels,
         #                              debug_level=self.cfg["verbose_level"])
@@ -223,22 +227,22 @@ class FeatureExtractor(object):
         # ClassificatorHelper.save_results(res_fc2_2, self.cfg["result_path"], self.cfg["plot_path"],
         #                                  "fc2_svm_OLD_" + prepend_date)
 
-        res_early = svn_fn.svm_early_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
-                                            fc2_test, labels, debug_level=self.cfg["verbose_level"])
-        for v in res_early:
-            ClassificatorHelper.save_results(v, self.cfg["result_path"], self.cfg["plot_path"],
-                                             "early_" + str(v["combination"]) + prepend_date)
-
-        res_late = svn_fn.svm_late_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
-                                          fc2_test, labels, debug_level=self.cfg["verbose_level"])
-        ClassificatorHelper.save_results(res_late, self.cfg["result_path"], self.cfg["plot_path"],
-                                         "late_" + prepend_date)
-
-        res_fc2_all = svn_fn.test_diversity_fc2(target_train, fc2_train, target_test, fc2_test, labels,
-                                                debug_level=self.cfg["verbose_level"])
-        for k, v in res_fc2_all.items():
-            ClassificatorHelper.save_results(v, self.cfg["result_path"], self.cfg["plot_path"],
-                                             k + "_" + prepend_date)
+        # res_early = svn_fn.svm_early_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
+        #                                     fc2_test, labels, debug_level=self.cfg["verbose_level"])
+        # for v in res_early:
+        #     ClassificatorHelper.save_results(v, self.cfg["result_path"], self.cfg["plot_path"],
+        #                                      "early_" + str(v["combination"]) + prepend_date)
+        #
+        # res_late = svn_fn.svm_late_fusion(target_train, p1_train, p5_train, fc2_train, target_test, p1_test, p5_test,
+        #                                   fc2_test, labels, debug_level=self.cfg["verbose_level"])
+        # ClassificatorHelper.save_results(res_late, self.cfg["result_path"], self.cfg["plot_path"],
+        #                                  "late_" + prepend_date)
+        #
+        # res_fc2_all = svn_fn.test_diversity_fc2(target_train, fc2_train, target_test, fc2_test, labels,
+        #                                         debug_level=self.cfg["verbose_level"])
+        # for k, v in res_fc2_all.items():
+        #     ClassificatorHelper.save_results(v, self.cfg["result_path"], self.cfg["plot_path"],
+        #                                      k + "_" + prepend_date)
 
         print "[INFO]", "Finished classifying"
         pass
