@@ -2,10 +2,651 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abaf30ee-7c2f-43f4-97b7-c44f364bd15a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/debug.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u000_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/NIR/u001_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u000_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/000/VW/u001_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u002_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/NIR/u003_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u002_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/002/VW/u003_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u004_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/NIR/u005_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u004_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/004/VW/u005_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u006_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/NIR/u007_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u006_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/006/VW/u007_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u008_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/NIR/u009_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u008_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/008/VW/u009_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u010_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/NIR/u011_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u010_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/010/VW/u011_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u012_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/NIR/u013_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u012_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/012/VW/u013_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u014_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/NIR/u015_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u014_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/014/VW/u015_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u016_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/NIR/u017_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u016_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/016/VW/u017_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u018_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/NIR/u019_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u018_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/018/VW/u019_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u020_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/NIR/u021_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u020_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/020/VW/u021_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u022_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/NIR/u023_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u022_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/022/VW/u023_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u024_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/NIR/u025_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u024_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/024/VW/u025_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u026_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/NIR/u027_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u026_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/026/VW/u027_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u028_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/NIR/u029_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u028_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/028/VW/u029_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u030_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/NIR/u031_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u030_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/030/VW/u031_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u032_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/NIR/u033_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u032_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/032/VW/u033_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u034_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/NIR/u035_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u034_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/034/VW/u035_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u036_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/NIR/u037_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u036_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/036/VW/u037_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u038_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/NIR/u039_nir_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u038_vw_007.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_000.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_001.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_002.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_003.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_004.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_005.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_006.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iris_dataset/038/VW/u039_vw_007.bmp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classificator_helper.py" afterPath="$PROJECT_DIR$/classificator_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/alexnet_iris.json" afterPath="$PROJECT_DIR$/config/alexnet_iris.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor.py" afterPath="$PROJECT_DIR$/feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +657,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_alexnet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
+            <state relative-caret-position="1620">
               <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
               <folding>
                 <element signature="e#31#40#0" expanded="true" />
@@ -29,11 +670,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#52#61#0" expanded="true" />
               </folding>
@@ -44,22 +685,11 @@
       <file leaf-file-name="feature_extractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="566">
-                <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-                <folding />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="-2592">
+              <caret line="101" column="97" lean-forward="false" selection-start-line="101" selection-start-column="97" selection-end-line="101" selection-end-column="97" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,17 +697,37 @@
       <file leaf-file-name="classificator_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classificator_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="291" column="43" lean-forward="false" selection-start-line="291" selection-start-column="43" selection-end-line="291" selection-end-column="43" />
+            <state relative-caret-position="12474">
+              <caret line="693" column="11" lean-forward="true" selection-start-line="693" selection-start-column="11" selection-end-line="693" selection-end-column="11" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alexnet_iris.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/alexnet_iris.json">
+      <file leaf-file-name="_search.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9036">
+              <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10962">
+              <caret line="619" column="35" lean-forward="false" selection-start-line="619" selection-start-column="12" selection-end-line="619" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/debug.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
@@ -99,6 +749,8 @@
     <findStrings>
       <find>train</find>
       <find>bootstrap</find>
+      <find>decision_function_shape</find>
+      <find>_distance_wrap</find>
     </findStrings>
     <replaceStrings>
       <replace>test</replace>
@@ -112,11 +764,12 @@
       <list>
         <option value="$PROJECT_DIR$/scripts/test_alexnet.py" />
         <option value="$PROJECT_DIR$/svn_classificator.py" />
-        <option value="$PROJECT_DIR$/config/alexnet_iris.json" />
-        <option value="$PROJECT_DIR$/classificator_helper.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/feature_extractor.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config/alexnet_iris.json" />
+        <option value="$PROJECT_DIR$/config/debug.json" />
+        <option value="$PROJECT_DIR$/classificator_helper.py" />
+        <option value="$PROJECT_DIR$/feature_extractor.py" />
       </list>
     </option>
   </component>
@@ -154,6 +807,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn_feature_extractor_rpv_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn_feature_extractor_rpv_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -164,6 +831,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
@@ -299,9 +969,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -309,15 +978,15 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2719486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -333,68 +1002,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
+        <state relative-caret-position="1620">
           <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
           <folding>
             <element signature="e#31#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247972723/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-894">
-          <caret line="1340" column="4" lean-forward="false" selection-start-line="1340" selection-start-column="4" selection-end-line="1340" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/ensemble/forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="1100" column="26" lean-forward="false" selection-start-line="1100" selection-start-column="17" selection-end-line="1100" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/ensemble/bagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="547" column="17" lean-forward="false" selection-start-line="547" selection-start-column="17" selection-end-line="547" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="907" column="29" lean-forward="true" selection-start-line="907" selection-start-column="29" selection-end-line="907" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/alexnet_iris.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classificator_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="291" column="43" lean-forward="false" selection-start-line="291" selection-start-column="43" selection-end-line="291" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -409,22 +1020,300 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classificator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="114" column="90" lean-forward="false" selection-start-line="114" selection-start-column="84" selection-end-line="114" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9036">
+          <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10962">
+          <caret line="619" column="35" lean-forward="false" selection-start-line="619" selection-start-column="12" selection-end-line="619" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/debug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="85" lean-forward="false" selection-start-line="221" selection-start-column="85" selection-end-line="221" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4014">
+          <caret line="230" column="0" lean-forward="true" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9792">
+          <caret line="562" column="42" lean-forward="false" selection-start-line="562" selection-start-column="42" selection-end-line="562" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9036">
+          <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10962">
+          <caret line="619" column="35" lean-forward="false" selection-start-line="619" selection-start-column="12" selection-end-line="619" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/debug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="291" column="43" lean-forward="false" selection-start-line="291" selection-start-column="43" selection-end-line="291" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/alexnet_iris.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="566">
+          <first_editor relative-caret-position="630">
             <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="94" column="15" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="94" selection-end-column="15" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1100" column="26" lean-forward="false" selection-start-line="1100" selection-start-column="17" selection-end-line="1100" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/ensemble/bagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="547" column="17" lean-forward="false" selection-start-line="547" selection-start-column="17" selection-end-line="547" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="630">
+            <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/alexnet_iris.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="178" column="18" lean-forward="true" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="558" column="42" lean-forward="false" selection-start-line="558" selection-start-column="35" selection-end-line="558" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9036">
+          <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10962">
+          <caret line="619" column="35" lean-forward="false" selection-start-line="619" selection-start-column="12" selection-end-line="619" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/debug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247972723/scipy/spatial/_distance_wrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/scipy/spatial/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="2240" column="39" lean-forward="true" selection-start-line="2240" selection-start-column="39" selection-end-line="2240" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12474">
+          <caret line="693" column="11" lean-forward="true" selection-start-line="693" selection-start-column="11" selection-end-line="693" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2592">
+          <caret line="101" column="97" lean-forward="false" selection-start-line="101" selection-start-column="97" selection-end-line="101" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

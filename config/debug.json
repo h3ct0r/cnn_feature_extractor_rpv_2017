@@ -1,5 +1,5 @@
 {
-  "dataset": "datasets/iris_dataset",
+  "dataset": "datasets/test_dataset",
   "plot_path": "plots",
   "result_path": "result",
   "verbose_level": 0
